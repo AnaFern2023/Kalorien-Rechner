@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 60%;
+    background-color: lightskyblue;
+    border-radius: 15px;
+    padding: 2vh 4vw;
+}
+
+section h1 {
+    text-align: center;
+    padding: 6vh 0 3vh 0;
+    font-size: 35px;
+}
+
+section form div:nth-of-type(1) label {
+    display: block;
+    padding-bottom: 2vh;
+    font-size: 20px;
+}
+
+
+section form div:nth-of-type(1) input {
+    margin-bottom: 2vh;
+    padding: 1vh;
+    width: 100%;
+}
+
+section form div:nth-of-type(2) {
+    padding-bottom: 3vh;
+}
+
+section form div:nth-of-type(2) label:nth-of-type(1) {
+    display: block;
+    padding-bottom: 2vh;
+    font-size: 20px;
+}
+
+section form div:nth-of-type(3) label:nth-of-type(1) {
+    font-size: 20px;
+}
+
+section form select {
+    width: 70%;
+    margin-top: 2vh;
+}
+
+article table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    margin: 3vh 0;
+    background-color: lightgray;
+}
+
+article table th {
+    background-color: grey;
+}
+
+article table th,
+td {
+    padding: 0.5vh 1.6rem;
+    border: 1px solid black;
+    border-radius: .1em;
+}
+
+#submit {
+    padding: 1vh 1rem;
+    background-color: bisque;
+    border: none;
+    border-radius: 5px;
+    color: orangered;
+}
+
+#submit:hover {
+    background-color: burlywood;
+}
